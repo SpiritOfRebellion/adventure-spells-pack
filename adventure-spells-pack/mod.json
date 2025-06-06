@@ -13,7 +13,7 @@
 	},	
 	"changelog" :
 	{
-		"1.2"   : [ "Fleet Foot gives bonus on the next day, because increasing movement on current day does nothing" ],
+		"1.2"   : [ "Fleet Foot gives bonus movement until next battle, and doesn't stack" ],
 		"1.1"   : [ "Renamed mod to Adventure Map Spells", "Arranged spells into submods", "Updated Czech translation" ],
 		"1.0"   : [ "Spell balance and redesign by Aphra" ],
 		"0.4"   : [ "Polish translation by FallainBlack" ],
