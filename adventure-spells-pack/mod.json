@@ -3,7 +3,7 @@
 	"description" : "This mod adds 24 adventure map spells.",
 	"author" : "Heroes III Modding Community, Aphra",
 	"contact" : "https://discord.gg/femaQDmS",
-	"version" : "1.1",
+	"version" : "1.2",
 	"modType" : "Spells",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -13,6 +13,7 @@
 	},	
 	"changelog" :
 	{
+		"1.2"   : [ "Fleet Foot gives bonus on the next day, because increasing movement on current day does nothing" ],
 		"1.1"   : [ "Renamed mod to Adventure Map Spells", "Arranged spells into submods", "Updated Czech translation" ],
 		"1.0"   : [ "Spell balance and redesign by Aphra" ],
 		"0.4"   : [ "Polish translation by FallainBlack" ],
