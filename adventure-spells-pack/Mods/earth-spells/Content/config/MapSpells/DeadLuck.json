@@ -38,7 +38,7 @@
 				"description" : "{Dead Luck}\r\n\r\nReduces maximum Luck in combat to +2 until the end of the day.",
 				"cost" : 10,
 				"power" : 10,
-				"aiValue" : 6,
+////				"aiValue" : 6,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -60,7 +60,7 @@
 				"description" : "{Basic Dead Luck}\r\n\r\nReduces maximum Luck in combat to +2 until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
-				"aiValue" : 6,
+////				"aiValue" : 6,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -82,7 +82,7 @@
 				"description" : "{Advanced Dead Luck}\r\n\r\nReduces maximum Luck in combat to +1 until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
-				"aiValue" : 6,
+//				"aiValue" : 6,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
@@ -104,7 +104,7 @@
 				"description" : "{Expert Dead Luck}\r\n\r\nNegates positive Luck in combat until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
-				"aiValue" : 6,
+//				"aiValue" : 6,
 				"range" : "X",
 				"targetModifier":{"smart":false},
 				"effects":
