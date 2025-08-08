@@ -7,18 +7,16 @@
 	"modType" : "Spells",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.4.0"
-	},	
-	"spells" :
-	[
+	},
+	"spells" : [
 		"config/MapSpells/Accuracy.json",
 		"config/MapSpells/Clarity.json",
 		"config/MapSpells/Darkness.json",
 		"config/MapSpells/DivineSpirit.json",
 		"config/MapSpells/FleetFoot.json",
-		"config/MapSpells/PowerOfHaste.json",
+		"config/MapSpells/PowerOfHaste.json"
 	],
 	"czech" : {
 		"name" : "Kouzla magie vzduchu",
