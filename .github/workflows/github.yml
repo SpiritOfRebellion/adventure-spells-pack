@@ -51,7 +51,7 @@ jobs:
                    --trailing-comma none \
                    --print-width 1
 
-      - name: Postprocess colon spacing
+      - name: Postprocess JSON format
         run: python3 .github/postprocess.py
 
       - name: Commit changes if needed
