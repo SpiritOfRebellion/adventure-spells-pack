@@ -7,12 +7,10 @@
 	"modType" : "Spells",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.4.0"
 	},
-	"spells" :
-	[
+	"spells" : [
 		"config/MapSpells/DeadLuck.json",
 		"config/MapSpells/DeathCall.json",
 		"config/MapSpells/DwarvenLuck.json",

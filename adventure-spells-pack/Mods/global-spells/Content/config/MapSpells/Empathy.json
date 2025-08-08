@@ -1,101 +1,96 @@
 {
-	"empathy":
-	{
-		"type" : "adventure", 
+	"empathy" : {
+		"type" : "adventure",
 		"name" : "Empathy",
-		"school":
-		{
-			"air": true,
-			"earth": true,
-			"fire": true,
-			"water": true
+		"school" : {
+			"air" : true,
+			"earth" : true,
+			"fire" : true,
+			"water" : true
 		},
 		"level" : 2,
 		"power" : 10,
-		"counters": {"spell.empathy":true },			
-		"defaultGainChance" : 4, 
-		"gainChance":
-		{
+		"counters" : {
+			"spell.empathy" : true
+		},
+		"defaultGainChance" : 4,
+		"gainChance" : {
 			"castle" : 3
 		},
-		"flags" : {"indifferent": true,"positive":true},
-		"graphics":
-		{
+		"flags" : {
+			"indifferent" : true,
+			"positive" : true
+		},
+		"graphics" : {
 			"iconBook" : "Map-spells/Empathy/spellBook",
 			"iconScroll" : "Map-spells/Empathy/spellScroll",
 			"iconScenarioBonus" : "Map-spells/Empathy/spellBonus",
 			"iconEffect" : "Map-spells/Empathy/spellEffect"
 		},
-		"sounds":
-		{
+		"sounds" : {
 			"cast" : "mm6/65psychicshock02"
 		},
 		"targetType" : "NO_TARGET",
-		"levels":
-		{
-			"none":
-			{
+		"levels" : {
+			"none" : {
 				"description" : "{Empathy}\r\n\r\nNullifies the Morale penalty of mixing good and neutral units until the end of the day.",
 				"cost" : 8,
 				"power" : 10,
-//				"aiValue" : 5,
+				//				"aiValue" : 5,
 				"range" : "X",
-				"targetModifier":{"smart":false},
-				"effects":
-				{
-					"attacks":
-					{
+				"targetModifier" : {
+					"smart" : false
+				},
+				"effects" : {
+					"attacks" : {
 						"type" : "NONEVIL_ALIGNMENT_MIX",
 						"duration" : "ONE_DAY"
 					}
 				}
 			},
-			"basic":
-			{
+			"basic" : {
 				"description" : "{Basic Empathy}\r\n\r\nNullifies the Morale penalty of mixing good and neutral units until the end of the day.",
 				"cost" : 6,
 				"power" : 10,
-//				"aiValue" : 5,
+				//				"aiValue" : 5,
 				"range" : "X",
-				"targetModifier":{"smart":false},
-				"effects":
-				{
-					"attacks":
-					{
+				"targetModifier" : {
+					"smart" : false
+				},
+				"effects" : {
+					"attacks" : {
 						"type" : "NONEVIL_ALIGNMENT_MIX",
 						"duration" : "ONE_DAY"
 					}
 				}
 			},
-			"advanced":
-			{
+			"advanced" : {
 				"description" : "{Advanced Empathy}\r\n\r\nNullifies the Morale penalty of mixing good and neutral units until the end of the week.",
 				"cost" : 6,
 				"power" : 10,
-//				"aiValue" : 5,
+				//				"aiValue" : 5,
 				"range" : "X",
-				"targetModifier":{"smart":false},
-				"effects":
-				{
-					"attacks":
-					{
+				"targetModifier" : {
+					"smart" : false
+				},
+				"effects" : {
+					"attacks" : {
 						"type" : "NONEVIL_ALIGNMENT_MIX",
 						"duration" : "ONE_WEEK"
 					}
 				}
 			},
-			"expert":
-			{
+			"expert" : {
 				"description" : "{Expert Empathy}\r\n\r\nNullifies the Morale penalty of mixing good and neutral units until the end of the week.",
 				"cost" : 6,
 				"power" : 10,
-//				"aiValue" : 5,
+				//				"aiValue" : 5,
 				"range" : "X",
-				"targetModifier":{"smart":false},
-				"effects":
-				{
-					"attacks":
-					{
+				"targetModifier" : {
+					"smart" : false
+				},
+				"effects" : {
+					"attacks" : {
 						"type" : "NONEVIL_ALIGNMENT_MIX",
 						"duration" : "ONE_WEEK"
 					}
