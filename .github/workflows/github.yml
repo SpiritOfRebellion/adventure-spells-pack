@@ -52,7 +52,7 @@ jobs:
                    --print-width 1
 
       - name: Postprocess colon spacing
-        run: python3 .github/postprocess_colons.py
+        run: python3 .github/postprocess.py
 
       - name: Commit changes if needed
         uses: EndBug/add-and-commit@v9
