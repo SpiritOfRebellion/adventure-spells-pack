@@ -40,12 +40,16 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "MORALE",
-						"val" : 1,
-						"duration" : "ONE_DAY"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "MORALE",
+                            "val" : 1,
+                            "duration" : "ONE_DAY"
+                        }
+                    }
 				}
 			},
 			"basic" : {
@@ -57,12 +61,16 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "MORALE",
-						"val" : 1,
-						"duration" : "ONE_DAY"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "MORALE",
+                            "val" : 1,
+                            "duration" : "ONE_DAY"
+                        }
+                    }
 				}
 			},
 			"advanced" : {
@@ -74,12 +82,16 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "MORALE",
-						"val" : 2,
-						"duration" : "ONE_DAY"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "MORALE",
+                            "val" : 2,
+                            "duration" : "ONE_DAY"
+                        }
+                    }
 				}
 			},
 			"expert" : {
@@ -91,12 +103,16 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "MORALE",
-						"val" : 3,
-						"duration" : "ONE_DAY"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "MORALE",
+                            "val" : 3,
+                            "duration" : "ONE_DAY"
+                        }
+                    }
 				}
 			}
 		}
