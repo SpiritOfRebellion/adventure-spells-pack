@@ -39,15 +39,15 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "WHIRLPOOL_PROTECTION",
-                            "duration" : "ONE_DAY"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "WHIRLPOOL_PROTECTION",
+							"duration" : "ONE_DAY"
+						}
+					}
 				}
 			},
 			"basic" : {
@@ -59,15 +59,15 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "WHIRLPOOL_PROTECTION",
-                            "duration" : "ONE_DAY"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "WHIRLPOOL_PROTECTION",
+							"duration" : "ONE_DAY"
+						}
+					}
 				}
 			},
 			"advanced" : {
@@ -79,15 +79,15 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "WHIRLPOOL_PROTECTION",
-                            "duration" : "ONE_DAY"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "WHIRLPOOL_PROTECTION",
+							"duration" : "ONE_DAY"
+						}
+					}
 				}
 			},
 			"expert" : {
@@ -99,15 +99,15 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "WHIRLPOOL_PROTECTION",
-                            "duration" : "ONE_WEEK"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "WHIRLPOOL_PROTECTION",
+							"duration" : "ONE_WEEK"
+						}
+					}
 				}
 			}
 		}

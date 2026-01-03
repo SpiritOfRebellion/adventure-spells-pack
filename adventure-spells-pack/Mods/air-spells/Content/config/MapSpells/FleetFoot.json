@@ -41,20 +41,20 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "MOVEMENT",
-                            "subtype" : "heroMovementLand",
-                            "val" : 200,
-                            "valueType" : "ADDITIVE_VALUE",
-                            "duration" : "N_DAYS",
-                            "turns" : 2,
-                            "stacking" : "Fleet Foot"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "MOVEMENT",
+							"subtype" : "heroMovementLand",
+							"val" : 200,
+							"valueType" : "ADDITIVE_VALUE",
+							"duration" : "N_DAYS",
+							"turns" : 2,
+							"stacking" : "Fleet Foot"
+						}
+					}
 				}
 			},
 			"basic" : {
@@ -66,19 +66,19 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "MOVEMENT",
-                            "subtype" : "heroMovementLand",
-                            "val" : 200,
-                            "valueType" : "ADDITIVE_VALUE",
-                            "duration" : "ONE_BATTLE",
-                            "stacking" : "Fleet Foot"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "MOVEMENT",
+							"subtype" : "heroMovementLand",
+							"val" : 200,
+							"valueType" : "ADDITIVE_VALUE",
+							"duration" : "ONE_BATTLE",
+							"stacking" : "Fleet Foot"
+						}
+					}
 				}
 			},
 			"advanced" : {
@@ -90,20 +90,20 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "MOVEMENT",
-                            "subtype" : "heroMovementLand",
-                            "valueType" : "ADDITIVE_VALUE",
-                            "val" : 300,
-                            "duration" : "N_DAYS",
-                            "turns" : 2,
-                            "stacking" : "Fleet Foot"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "MOVEMENT",
+							"subtype" : "heroMovementLand",
+							"valueType" : "ADDITIVE_VALUE",
+							"val" : 300,
+							"duration" : "N_DAYS",
+							"turns" : 2,
+							"stacking" : "Fleet Foot"
+						}
+					}
 				}
 			},
 			"expert" : {
@@ -115,20 +115,20 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "MOVEMENT",
-                            "subtype" : "heroMovementLand",
-                            "valueType" : "ADDITIVE_VALUE",
-                            "val" : 400,
-                            "duration" : "N_DAYS",
-                            "turns" : 2,
-                            "stacking" : "Fleet Foot"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "MOVEMENT",
+							"subtype" : "heroMovementLand",
+							"valueType" : "ADDITIVE_VALUE",
+							"val" : 400,
+							"duration" : "N_DAYS",
+							"turns" : 2,
+							"stacking" : "Fleet Foot"
+						}
+					}
 				}
 			}
 		}

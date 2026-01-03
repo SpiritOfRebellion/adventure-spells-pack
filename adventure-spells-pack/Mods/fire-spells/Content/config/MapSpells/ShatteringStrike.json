@@ -42,16 +42,16 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "ENEMY_DEFENCE_REDUCTION",
-                            "val" : 5,
-                            "duration" : "ONE_DAY"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "ENEMY_DEFENCE_REDUCTION",
+							"val" : 5,
+							"duration" : "ONE_DAY"
+						}
+					}
 				}
 			},
 			"basic" : {
@@ -63,16 +63,16 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "ENEMY_DEFENCE_REDUCTION",
-                            "val" : 5,
-                            "duration" : "ONE_DAY"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "ENEMY_DEFENCE_REDUCTION",
+							"val" : 5,
+							"duration" : "ONE_DAY"
+						}
+					}
 				}
 			},
 			"advanced" : {
@@ -84,16 +84,16 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "ENEMY_DEFENCE_REDUCTION",
-                            "val" : 10,
-                            "duration" : "ONE_DAY"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "ENEMY_DEFENCE_REDUCTION",
+							"val" : 10,
+							"duration" : "ONE_DAY"
+						}
+					}
 				}
 			},
 			"expert" : {
@@ -105,16 +105,16 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "ENEMY_DEFENCE_REDUCTION",
-                            "val" : 15,
-                            "duration" : "ONE_DAY"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "ENEMY_DEFENCE_REDUCTION",
+							"val" : 15,
+							"duration" : "ONE_DAY"
+						}
+					}
 				}
 			}
 		}

@@ -41,15 +41,15 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "NONEVIL_ALIGNMENT_MIX",
-                            "duration" : "ONE_DAY"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "NONEVIL_ALIGNMENT_MIX",
+							"duration" : "ONE_DAY"
+						}
+					}
 				}
 			},
 			"basic" : {
@@ -61,15 +61,15 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "NONEVIL_ALIGNMENT_MIX",
-                            "duration" : "ONE_DAY"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "NONEVIL_ALIGNMENT_MIX",
+							"duration" : "ONE_DAY"
+						}
+					}
 				}
 			},
 			"advanced" : {
@@ -81,15 +81,15 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "NONEVIL_ALIGNMENT_MIX",
-                            "duration" : "ONE_WEEK"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "NONEVIL_ALIGNMENT_MIX",
+							"duration" : "ONE_WEEK"
+						}
+					}
 				}
 			},
 			"expert" : {
@@ -101,15 +101,15 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "NONEVIL_ALIGNMENT_MIX",
-                            "duration" : "ONE_WEEK"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "NONEVIL_ALIGNMENT_MIX",
+							"duration" : "ONE_WEEK"
+						}
+					}
 				}
 			}
 		}

@@ -41,17 +41,17 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "MAGIC_RESISTANCE",
-                            "val" : 5,
-                            "duration" : "ONE_DAY",
-                            "propagator" : "HERO"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "MAGIC_RESISTANCE",
+							"val" : 5,
+							"duration" : "ONE_DAY",
+							"propagator" : "HERO"
+						}
+					}
 				}
 			},
 			"basic" : {
@@ -63,17 +63,17 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "MAGIC_RESISTANCE",
-                            "val" : 5,
-                            "duration" : "ONE_DAY",
-                            "propagator" : "HERO"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "MAGIC_RESISTANCE",
+							"val" : 5,
+							"duration" : "ONE_DAY",
+							"propagator" : "HERO"
+						}
+					}
 				}
 			},
 			"advanced" : {
@@ -85,17 +85,17 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "MAGIC_RESISTANCE",
-                            "val" : 10,
-                            "duration" : "ONE_DAY",
-                            "propagator" : "HERO"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "MAGIC_RESISTANCE",
+							"val" : 10,
+							"duration" : "ONE_DAY",
+							"propagator" : "HERO"
+						}
+					}
 				}
 			},
 			"expert" : {
@@ -107,17 +107,17 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "MAGIC_RESISTANCE",
-                            "val" : 15,
-                            "duration" : "ONE_DAY",
-                            "propagator" : "HERO"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "MAGIC_RESISTANCE",
+							"val" : 15,
+							"duration" : "ONE_DAY",
+							"propagator" : "HERO"
+						}
+					}
 				}
 			}
 		}

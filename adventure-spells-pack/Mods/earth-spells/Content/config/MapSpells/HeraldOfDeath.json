@@ -41,18 +41,18 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "ability1A" : {
-                            "type" : "MORALE",
-                            "val" : 2,
-                            "valueType" : "INDEPENDENT_MIN",
-                            "duration" : "ONE_DAY",
-                            "propagator": "BATTLE_WIDE"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"ability1A" : {
+							"type" : "MORALE",
+							"val" : 2,
+							"valueType" : "INDEPENDENT_MIN",
+							"duration" : "ONE_DAY",
+							"propagator" : "BATTLE_WIDE"
+						}
+					}
 				}
 			},
 			"basic" : {
@@ -64,18 +64,18 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "ability1A" : {
-                            "type" : "MORALE",
-                            "val" : 2,
-                            "valueType" : "INDEPENDENT_MIN",
-                            "duration" : "ONE_DAY",
-                            "propagator": "BATTLE_WIDE"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"ability1A" : {
+							"type" : "MORALE",
+							"val" : 2,
+							"valueType" : "INDEPENDENT_MIN",
+							"duration" : "ONE_DAY",
+							"propagator" : "BATTLE_WIDE"
+						}
+					}
 				}
 			},
 			"advanced" : {
@@ -87,18 +87,18 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "ability1A" : {
-                            "type" : "MORALE",
-                            "val" : 1,
-                            "valueType" : "INDEPENDENT_MIN",
-                            "duration" : "ONE_DAY",
-                            "propagator": "BATTLE_WIDE"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"ability1A" : {
+							"type" : "MORALE",
+							"val" : 1,
+							"valueType" : "INDEPENDENT_MIN",
+							"duration" : "ONE_DAY",
+							"propagator" : "BATTLE_WIDE"
+						}
+					}
 				}
 			},
 			"expert" : {
@@ -110,18 +110,18 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "ability1A" : {
-                            "type" : "MORALE",
-                            "val" : 0,
-                            "valueType" : "INDEPENDENT_MIN",
-                            "duration" : "ONE_DAY",
-                            "propagator": "BATTLE_WIDE"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"ability1A" : {
+							"type" : "MORALE",
+							"val" : 0,
+							"valueType" : "INDEPENDENT_MIN",
+							"duration" : "ONE_DAY",
+							"propagator" : "BATTLE_WIDE"
+						}
+					}
 				}
 			}
 		}

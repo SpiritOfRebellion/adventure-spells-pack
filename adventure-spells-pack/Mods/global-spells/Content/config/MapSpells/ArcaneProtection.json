@@ -42,18 +42,18 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "SPELL_DAMAGE_REDUCTION",
-                            "subtype" : "spellSchool.any",
-                            "val" : 5,
-                            "duration" : "ONE_DAY",
-                            "propagator" : "HERO"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "SPELL_DAMAGE_REDUCTION",
+							"subtype" : "spellSchool.any",
+							"val" : 5,
+							"duration" : "ONE_DAY",
+							"propagator" : "HERO"
+						}
+					}
 				}
 			},
 			"basic" : {
@@ -65,18 +65,18 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "SPELL_DAMAGE_REDUCTION",
-                            "subtype" : "spellSchool.any",
-                            "val" : 5,
-                            "duration" : "ONE_DAY",
-                            "propagator" : "HERO"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "SPELL_DAMAGE_REDUCTION",
+							"subtype" : "spellSchool.any",
+							"val" : 5,
+							"duration" : "ONE_DAY",
+							"propagator" : "HERO"
+						}
+					}
 				}
 			},
 			"advanced" : {
@@ -88,18 +88,18 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "SPELL_DAMAGE_REDUCTION",
-                            "subtype" : "spellSchool.any",
-                            "val" : 10,
-                            "duration" : "ONE_DAY",
-                            "propagator" : "HERO"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "SPELL_DAMAGE_REDUCTION",
+							"subtype" : "spellSchool.any",
+							"val" : 10,
+							"duration" : "ONE_DAY",
+							"propagator" : "HERO"
+						}
+					}
 				}
 			},
 			"expert" : {
@@ -111,18 +111,18 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-                "adventureEffect" : {
-                    "type" : "generic",
-                    "castsPerDay" : 1,
-                    "bonuses" : {
-                        "attacks" : {
-                            "type" : "SPELL_DAMAGE_REDUCTION",
-                            "subtype" : "spellSchool.any",
-                            "val" : 15,
-                            "duration" : "ONE_DAY",
-                            "propagator" : "HERO"
-                        }
-                    }
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "SPELL_DAMAGE_REDUCTION",
+							"subtype" : "spellSchool.any",
+							"val" : 15,
+							"duration" : "ONE_DAY",
+							"propagator" : "HERO"
+						}
+					}
 				}
 			}
 		}
