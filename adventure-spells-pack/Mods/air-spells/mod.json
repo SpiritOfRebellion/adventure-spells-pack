@@ -18,6 +18,10 @@
 		"config/MapSpells/FleetFoot.json",
 		"config/MapSpells/PowerOfHaste.json"
 	],
+	"chinese" : {
+		"name" : "气系魔法",
+		"description" : "添加6个新冒险气系法术<br/><br/>百步穿杨<br/>心明如镜<br/>暗影笼罩<br/>涤魂铸志<br/>健步如飞<br/>迅捷之力"
+	},
 	"czech" : {
 		"name" : "Kouzla magie vzduchu",
 		"description" : "Tato modifikace přidává 6 kouzel pro magii vzduchu<br/><br/>Přesnost<br/>Jasnost<br/>Temnota<br/>Božský duch<br/>Rychlé nohy<br/>Moc spěchu"
