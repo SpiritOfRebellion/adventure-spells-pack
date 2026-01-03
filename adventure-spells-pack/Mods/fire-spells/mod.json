@@ -15,6 +15,10 @@
 		"config/MapSpells/RaiseDemons.json",
 		"config/MapSpells/ShatteringStrike.json"
 	],
+	"chinese" : {
+		"name" : "火系魔法",
+		"description" : "添加3个新冒险火系法术<br/><br/>邪魔神力<br/>恶魔复生<br/>粉碎打击"
+	},
 	"czech" : {
 		"name" : "Kouzla magie ohně",
 		"description" : "Tato modifikace přidává 3 kouzla pro magii ohně<br/><br/>Démonická síla<br/>Oživení démonů<br/>Drtivý úder"

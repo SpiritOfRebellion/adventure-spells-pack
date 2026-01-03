@@ -16,6 +16,10 @@
 		"config/MapSpells/Seafaring.json",
 		"config/MapSpells/WhirlpoolProtection.json"
 	],
+	"chinese" : {
+		"name" : "水系魔法",
+		"description" : "添加4个新冒险水系法术<br/><br/>圣灵赐福<br/>魔能导引<br/>稳泛沧浪<br/>涡旋防护"
+	},
 	"czech" : {
 		"name" : "Kouzla magie vody",
 		"description" : "Tato modifikace přidává 4 kouzla pro magii vody<br/><br/>Požehnání magie<br/>Proud síly<br/>Mořeplavec<br/>Ochrana proti vírům"

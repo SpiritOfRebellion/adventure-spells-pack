@@ -18,6 +18,10 @@
 		"config/MapSpells/HoldGround.json",
 		"config/MapSpells/PowerOfStone.json"
 	],
+	"chinese" : {
+		"name" : "土系魔法",
+		"description" : "添加6个新冒险土系法术<br/><br/>福薄运蹇<br/>亡者召令<br/>矮人之幸<br/>万马齐喑<br/>坚守阵地<br/>磐石护体"
+	},
 	"czech" : {
 		"name" : "Kouzla magie země",
 		"description" : "Tato modifikace přidává 6 kouzel pro magii země<br/><br/>Mrtvé štěstí<br/>Volání smrti<br/>Trpasličí štěstí<br/>Posel smrti<br/>Drž pozici<br/>Moc kamene"

@@ -17,6 +17,10 @@
 		"config/MapSpells/MagicCushion.json",
 		"config/MapSpells/Negotiations.json"
 	],
+	"chinese" : {
+		"name" : "全派系魔法",
+		"description" : "添加5个新冒险全派系法术<br/><br/>御法奇术<br/>同仇敌忾<br/>狮鹫之眼<br/>魔能缓冲<br/>巧舌如簧"
+	},
 	"czech" : {
 		"name" : "Kouzla pro všechny magie",
 		"description" : "Tato modifikace přidává 5 kouzel pro všechny typy magie<br/><br/>Ochrana před magií<br/>Empatie<br/>Gryfí oko<br/>Magická odolnost<br/>Vyjednávání"
