@@ -41,14 +41,19 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "MAGIC_SCHOOL_SKILL",
-						"subtype" : "spellSchool.any",
-						"val" : 1,
-						"duration" : "ONE_DAY"
-					}
-				}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "MAGIC_SCHOOL_SKILL",
+                            "subtype" : "spellSchool.any",
+                            "val" : 1,
+                            "valueType": "INDEPENDENT_MIN",
+                            "duration" : "ONE_DAY"
+                        }
+                    }
+                }
 			},
 			"basic" : {
 				"description" : "{Basic Benediction}\r\n\r\nCast all spells at Basic proficiency until the end of the day.",
@@ -59,14 +64,19 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "MAGIC_SCHOOL_SKILL",
-						"subtype" : "spellSchool.any",
-						"val" : 1,
-						"duration" : "ONE_DAY"
-					}
-				}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "MAGIC_SCHOOL_SKILL",
+                            "subtype" : "spellSchool.any",
+                            "val" : 1,
+                            "valueType": "INDEPENDENT_MIN",
+                            "duration" : "ONE_DAY"
+                        }
+                    }
+                }
 			},
 			"advanced" : {
 				"description" : "{Advanced Benediction}\r\n\r\nCast all spells at Advanced proficiency until the end of the day.",
@@ -77,14 +87,19 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "MAGIC_SCHOOL_SKILL",
-						"subtype" : "spellSchool.any",
-						"val" : 2,
-						"duration" : "ONE_DAY"
-					}
-				}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "MAGIC_SCHOOL_SKILL",
+                            "subtype" : "spellSchool.any",
+                            "val" : 2,
+                            "valueType": "INDEPENDENT_MIN",
+                            "duration" : "ONE_DAY"
+                        }
+                    }
+                }
 			},
 			"expert" : {
 				"description" : "{Expert Benediction}\r\n\r\nCast all spells at Expert proficiency until the end of the day.",
@@ -95,14 +110,19 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "MAGIC_SCHOOL_SKILL",
-						"subtype" : "spellSchool.any",
-						"val" : 3,
-						"duration" : "ONE_DAY"
-					}
-				}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "MAGIC_SCHOOL_SKILL",
+                            "subtype" : "spellSchool.any",
+                            "val" : 3,
+                            "valueType": "INDEPENDENT_MIN",
+                            "duration" : "ONE_DAY"
+                        }
+                    }
+                }
 			}
 		}
 	}

@@ -42,13 +42,17 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"val" : 5,
-						"subtype" : "damageTypeAll",
-						"duration" : "ONE_DAY"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "GENERAL_DAMAGE_REDUCTION",
+                            "val" : 5,
+                            "subtype" : "damageTypeAll",
+                            "duration" : "ONE_DAY"
+                        }
+                    }
 				}
 			},
 			"basic" : {
@@ -60,13 +64,17 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"val" : 5,
-						"subtype" : "damageTypeAll",
-						"duration" : "ONE_DAY"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "GENERAL_DAMAGE_REDUCTION",
+                            "val" : 5,
+                            "subtype" : "damageTypeAll",
+                            "duration" : "ONE_DAY"
+                        }
+                    }
 				}
 			},
 			"advanced" : {
@@ -78,13 +86,17 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"val" : 10,
-						"subtype" : "damageTypeAll",
-						"duration" : "ONE_DAY"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "GENERAL_DAMAGE_REDUCTION",
+                            "val" : 10,
+                            "subtype" : "damageTypeAll",
+                            "duration" : "ONE_DAY"
+                        }
+                    }
 				}
 			},
 			"expert" : {
@@ -96,13 +108,17 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"val" : 15,
-						"subtype" : "damageTypeAll",
-						"duration" : "ONE_DAY"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "GENERAL_DAMAGE_REDUCTION",
+                            "val" : 15,
+                            "subtype" : "damageTypeAll",
+                            "duration" : "ONE_DAY"
+                        }
+                    }
 				}
 			}
 		}

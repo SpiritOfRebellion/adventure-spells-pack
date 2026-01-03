@@ -33,7 +33,7 @@
 		"targetType" : "NO_TARGET",
 		"levels" : {
 			"none" : {
-				"description" : "{Fleet Foot}\r\n\r\nGain +200 max movement points until next battle.",
+				"description" : "{Fleet Foot}\r\n\r\nGain +200 max movement points in next day.",
 				"cost" : 16,
 				"power" : 10,
 				//				"aiValue" : 5,
@@ -41,19 +41,24 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "MOVEMENT",
-						"subtype" : "heroMovementLand",
-						"val" : 200,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "ONE_BATTLE",
-						"stacking" : "Fleet Foot"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "MOVEMENT",
+                            "subtype" : "heroMovementLand",
+                            "val" : 200,
+                            "valueType" : "ADDITIVE_VALUE",
+                            "duration" : "N_DAYS",
+                            "turns" : 2,
+                            "stacking" : "Fleet Foot"
+                        }
+                    }
 				}
 			},
 			"basic" : {
-				"description" : "{Basic Fleet Foot}\r\n\r\nGain +200 max movement points until next battle.",
+				"description" : "{Basic Fleet Foot}\r\n\r\nGain +200 max movement points in next day.",
 				"cost" : 12,
 				"power" : 10,
 				//				"aiValue" : 5,
@@ -61,19 +66,23 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "MOVEMENT",
-						"subtype" : "heroMovementLand",
-						"val" : 200,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "ONE_BATTLE",
-						"stacking" : "Fleet Foot"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "MOVEMENT",
+                            "subtype" : "heroMovementLand",
+                            "val" : 200,
+                            "valueType" : "ADDITIVE_VALUE",
+                            "duration" : "ONE_BATTLE",
+                            "stacking" : "Fleet Foot"
+                        }
+                    }
 				}
 			},
 			"advanced" : {
-				"description" : "{Advanced Fleet Foot}\r\n\r\nGain +300 max movement points until next battle.",
+				"description" : "{Advanced Fleet Foot}\r\n\r\nGain +300 max movement points in next day.",
 				"cost" : 12,
 				"power" : 10,
 				//				"aiValue" : 5,
@@ -81,19 +90,24 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "MOVEMENT",
-						"subtype" : "heroMovementLand",
-						"valueType" : "ADDITIVE_VALUE",
-						"val" : 300,
-						"duration" : "ONE_BATTLE",
-						"stacking" : "Fleet Foot"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "MOVEMENT",
+                            "subtype" : "heroMovementLand",
+                            "valueType" : "ADDITIVE_VALUE",
+                            "val" : 300,
+                            "duration" : "N_DAYS",
+                            "turns" : 2,
+                            "stacking" : "Fleet Foot"
+                        }
+                    }
 				}
 			},
 			"expert" : {
-				"description" : "{Expert Fleet Foot}\r\n\r\nGain +400 max movement points until next battle.",
+				"description" : "{Expert Fleet Foot}\r\n\r\nGain +400 max movement points in next day.",
 				"cost" : 12,
 				"power" : 10,
 				//				"aiValue" : 5,
@@ -101,15 +115,20 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "MOVEMENT",
-						"subtype" : "heroMovementLand",
-						"valueType" : "ADDITIVE_VALUE",
-						"val" : 400,
-						"duration" : "ONE_BATTLE",
-						"stacking" : "Fleet Foot"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "MOVEMENT",
+                            "subtype" : "heroMovementLand",
+                            "valueType" : "ADDITIVE_VALUE",
+                            "val" : 400,
+                            "duration" : "N_DAYS",
+                            "turns" : 2,
+                            "stacking" : "Fleet Foot"
+                        }
+                    }
 				}
 			}
 		}

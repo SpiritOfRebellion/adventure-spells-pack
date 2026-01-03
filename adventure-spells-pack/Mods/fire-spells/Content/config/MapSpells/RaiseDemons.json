@@ -42,12 +42,16 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "IMPROVED_NECROMANCY",
-						"subtype" : "creature.demon",
-						"duration" : "ONE_DAY"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "IMPROVED_NECROMANCY",
+                            "subtype" : "creature.demon",
+                            "duration" : "ONE_DAY"
+                        }
+                    }
 				}
 			},
 			"basic" : {
@@ -59,12 +63,16 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "IMPROVED_NECROMANCY",
-						"subtype" : "creature.demon",
-						"duration" : "ONE_DAY"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "IMPROVED_NECROMANCY",
+                            "subtype" : "creature.demon",
+                            "duration" : "ONE_DAY"
+                        }
+                    }
 				}
 			},
 			"advanced" : {
@@ -76,12 +84,16 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "IMPROVED_NECROMANCY",
-						"subtype" : "creature.hornedDemon",
-						"duration" : "ONE_DAY"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "IMPROVED_NECROMANCY",
+                            "subtype" : "creature.hornedDemon",
+                            "duration" : "ONE_DAY"
+                        }
+                    }
 				}
 			},
 			"expert" : {
@@ -93,12 +105,16 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "IMPROVED_NECROMANCY",
-						"subtype" : "creature.hornedDemon",
-						"duration" : "ONE_WEEK"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "IMPROVED_NECROMANCY",
+                            "subtype" : "creature.hornedDemon",
+                            "duration" : "ONE_WEEK"
+                        }
+                    }
 				}
 			}
 		}

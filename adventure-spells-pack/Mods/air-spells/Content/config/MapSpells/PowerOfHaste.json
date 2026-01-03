@@ -41,14 +41,18 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "STACKS_SPEED",
-						"val" : 1,
-						//						"addInfo" : 100,
-						"duration" : "ONE_DAY",
-						"propagator" : "HERO"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "STACKS_SPEED",
+                            "val" : 1,
+                            //						"addInfo" : 100,
+                            "duration" : "ONE_DAY",
+                            "propagator" : "HERO"
+                        }
+                    }
 				}
 			},
 			"basic" : {
@@ -60,14 +64,18 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "STACKS_SPEED",
-						"val" : 1,
-						//						"addInfo" : 100,
-						"duration" : "ONE_DAY",
-						"propagator" : "HERO"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "STACKS_SPEED",
+                            "val" : 1,
+                            //						"addInfo" : 100,
+                            "duration" : "ONE_DAY",
+                            "propagator" : "HERO"
+                        }
+                    }
 				}
 			},
 			"advanced" : {
@@ -79,14 +87,18 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "STACKS_SPEED",
-						"val" : 2,
-						//						"addInfo" : 100,
-						"duration" : "ONE_DAY",
-						"propagator" : "HERO"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "STACKS_SPEED",
+                            "val" : 2,
+                            //						"addInfo" : 100,
+                            "duration" : "ONE_DAY",
+                            "propagator" : "HERO"
+                        }
+                    }
 				}
 			},
 			"expert" : {
@@ -98,14 +110,18 @@
 				"targetModifier" : {
 					"smart" : false
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "STACKS_SPEED",
-						"val" : 3,
-						//						"addInfo" : 100,
-						"duration" : "ONE_DAY",
-						"propagator" : "HERO"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "STACKS_SPEED",
+                            "val" : 3,
+                            //						"addInfo" : 100,
+                            "duration" : "ONE_DAY",
+                            "propagator" : "HERO"
+                        }
+                    }
 				}
 			}
 		}

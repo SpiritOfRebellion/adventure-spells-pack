@@ -41,14 +41,18 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "UNDEAD_RAISE_PERCENTAGE",
-						"val" : 10,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "ONE_DAY",
-						"propagator" : "HERO"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "UNDEAD_RAISE_PERCENTAGE",
+                            "val" : 10,
+                            "valueType" : "ADDITIVE_VALUE",
+                            "duration" : "ONE_DAY",
+                            "propagator" : "HERO"
+                        }
+                    }
 				}
 			},
 			"basic" : {
@@ -60,14 +64,18 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "UNDEAD_RAISE_PERCENTAGE",
-						"val" : 10,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "ONE_DAY",
-						"propagator" : "HERO"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "UNDEAD_RAISE_PERCENTAGE",
+                            "val" : 10,
+                            "valueType" : "ADDITIVE_VALUE",
+                            "duration" : "ONE_DAY",
+                            "propagator" : "HERO"
+                        }
+                    }
 				}
 			},
 			"advanced" : {
@@ -80,14 +88,18 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "UNDEAD_RAISE_PERCENTAGE",
-						"val" : 15,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "ONE_DAY",
-						"propagator" : "HERO"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "UNDEAD_RAISE_PERCENTAGE",
+                            "val" : 15,
+                            "valueType" : "ADDITIVE_VALUE",
+                            "duration" : "ONE_DAY",
+                            "propagator" : "HERO"
+                        }
+                    }
 				}
 			},
 			"expert" : {
@@ -99,14 +111,18 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"attacks" : {
-						"type" : "UNDEAD_RAISE_PERCENTAGE",
-						"val" : 20,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "ONE_DAY",
-						"propagator" : "HERO"
-					}
+                "adventureEffect" : {
+                    "type" : "generic",
+                    "castsPerDay" : 1,
+                    "bonuses" : {
+                        "attacks" : {
+                            "type" : "UNDEAD_RAISE_PERCENTAGE",
+                            "val" : 20,
+                            "valueType" : "ADDITIVE_VALUE",
+                            "duration" : "ONE_DAY",
+                            "propagator" : "HERO"
+                        }
+                    }
 				}
 			}
 		}
