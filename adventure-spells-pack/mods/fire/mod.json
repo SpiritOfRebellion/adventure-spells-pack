@@ -1,0 +1,21 @@
+{
+	"name" : "Fire Magic Spells",
+	"description" : "Adds 3 new adventure spells for Fire magic<br/><br/>Demonic Power<br/>Raise Demons<br/>Shattering Strike",
+	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
+	"contact" : "https://discord.gg/femaQDmS",
+	"version" : "1.5",
+	"modType" : "Spells",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"compatibility" : {
+		"min" : "1.7.0"
+	},
+	"chinese" : {
+		"name" : "火系魔法",
+		"description" : "添加3个新冒险火系法术<br/><br/>邪魔神力<br/>恶魔复生<br/>粉碎打击"
+	},
+	"czech" : {
+		"name" : "Kouzla magie ohně",
+		"description" : "Tato modifikace přidává 3 kouzla pro magii ohně<br/><br/>Démonická síla<br/>Oživení démonů<br/>Drtivý úder"
+	}
+}

@@ -1,0 +1,121 @@
+{
+	"griffinEye" : {
+		"type" : "adventure",
+		"name" : "Griffin Eye",
+		"school" : {
+			"air" : true,
+			"earth" : true,
+			"fire" : true,
+			"water" : true
+		},
+		"level" : 1,
+		"power" : 10,
+		"counters" : {
+			"spell.griffinEye" : true
+		},
+		"defaultGainChance" : 3,
+		"gainChance" : {
+			"castle" : 4
+		},
+		"flags" : {
+			"indifferent" : true,
+			"positive" : true
+		},
+		"graphics" : {
+			"iconBook" : "griffinEye/spellBook",
+			"iconScroll" : "griffinEye/spellScroll",
+			"iconScenarioBonus" : "griffinEye/spellBonus",
+			"iconEffect" : "griffinEye/spellEffect"
+		},
+		"sounds" : {
+			"cast" : "sorGriffinEye"
+		},
+		"targetType" : "NO_TARGET",
+		"levels" : {
+			"none" : {
+				"description" : "{Griffin Eye}\r\n\r\nSee 1 square further into the shroud until the end of the day.",
+				"cost" : 8,
+				"power" : 10,
+				//				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier" : {
+					"smart" : false
+				},
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "SIGHT_RADIUS",
+							"val" : 1,
+							"duration" : "ONE_DAY"
+						}
+					}
+				}
+			},
+			"basic" : {
+				"description" : "{Basic Griffin Eye}\r\n\r\nSee 1 square further into the shroud until the end of the day.",
+				"cost" : 6,
+				"power" : 10,
+				//				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier" : {
+					"smart" : false
+				},
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "SIGHT_RADIUS",
+							"val" : 1,
+							"duration" : "ONE_DAY"
+						}
+					}
+				}
+			},
+			"advanced" : {
+				"description" : "{Advanced Griffin Eye}\r\n\r\nSee 2 squares further into the shroud until the end of the day.",
+				"cost" : 6,
+				"power" : 10,
+				//				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier" : {
+					"smart" : false
+				},
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "SIGHT_RADIUS",
+							"val" : 2,
+							"duration" : "ONE_DAY"
+						}
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Griffin Eye}\r\n\r\nSee 3 squares further into the shroud until the end of the day.",
+				"cost" : 6,
+				"power" : 10,
+				//				"aiValue" : 5,
+				"range" : "X",
+				"targetModifier" : {
+					"smart" : false
+				},
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"attacks" : {
+							"type" : "SIGHT_RADIUS",
+							"val" : 3,
+							"duration" : "ONE_DAY"
+						}
+					}
+				}
+			}
+		}
+	}
+}

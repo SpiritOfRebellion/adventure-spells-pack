@@ -1,0 +1,121 @@
+{
+  "powerOfHaste": {
+    "type": "adventure",
+    "name": "Power Of Haste",
+    "school": {
+      "air": true,
+      "earth": false,
+      "fire": false,
+      "water": false
+    },
+    "level": 2,
+    "power": 0,
+    "counters": {
+      "spell.powerOfHaste": true
+    },
+    "defaultGainChance": 3,
+    "gainChance": {
+      "castle": 5
+    },
+    "flags": {
+      "indifferent": true,
+      "positive": true
+    },
+    "graphics": {
+      "iconBook": "powerOfHaste/spellBook",
+		  "iconScroll": "powerOfHaste/spellScroll",
+		  "iconScenarioBonus": "powerOfHaste/spellBonus",
+		  "iconEffect": "powerOfHaste/spellEffect"
+    },
+    "sounds": {
+      "cast": "sorPowerOfHaste"
+    },
+    "targetType": "NO_TARGET",
+    "levels": {
+      "none": {
+        "description": "{Power Of Haste}\r\n\r\nAll creatures receive +1 Speed until the end of the day.",
+        "cost": 14,
+        "power": 10,
+        "range": "X",
+        "targetModifier": {
+          "smart": false
+        },
+        "adventureEffect": {
+          "type": "generic",
+          "castsPerDay": 1,
+          "bonuses": {
+            "attacks": {
+              "type": "STACKS_SPEED",
+              "val": 1,
+              "duration": "ONE_DAY",
+              "propagator": "HERO"
+            }
+          }
+        }
+      },
+      "basic": {
+        "description": "{Basic Power Of Haste}\r\n\r\nAll creatures receive +1 Speed until the end of the day.",
+        "cost": 10,
+        "power": 10,
+        "range": "X",
+        "targetModifier": {
+          "smart": false
+        },
+        "adventureEffect": {
+          "type": "generic",
+          "castsPerDay": 1,
+          "bonuses": {
+            "attacks": {
+              "type": "STACKS_SPEED",
+              "val": 1,
+              "duration": "ONE_DAY",
+              "propagator": "HERO"
+            }
+          }
+        }
+      },
+      "advanced": {
+        "description": "{Advanced Power Of Haste}\r\n\r\nAll creatures receive +2 Speed until the end of the day.",
+        "cost": 10,
+        "power": 10,
+        "range": "X",
+        "targetModifier": {
+          "smart": false
+        },
+        "adventureEffect": {
+          "type": "generic",
+          "castsPerDay": 1,
+          "bonuses": {
+            "attacks": {
+              "type": "STACKS_SPEED",
+              "val": 2,
+              "duration": "ONE_DAY",
+              "propagator": "HERO"
+            }
+          }
+        }
+      },
+      "expert": {
+        "description": "{Expert Power Of Haste}\r\n\r\nAll creatures receive +3 Speed until the end of the day.",
+        "cost": 10,
+        "power": 10,
+        "range": "X",
+        "targetModifier": {
+          "smart": false
+        },
+        "adventureEffect": {
+          "type": "generic",
+          "castsPerDay": 1,
+          "bonuses": {
+            "attacks": {
+              "type": "STACKS_SPEED",
+              "val": 3,
+              "duration": "ONE_DAY",
+              "propagator": "HERO"
+            }
+          }
+        }
+      }
+    }
+  }
+}

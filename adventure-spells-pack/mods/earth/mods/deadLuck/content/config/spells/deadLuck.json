@@ -1,0 +1,125 @@
+{
+  "deadLuck": {
+    "type": "adventure",
+    "name": "Dead Luck",
+    "school": {
+      "air": false,
+      "earth": true,
+      "fire": false,
+      "water": false
+    },
+    "level": 3,
+    "power": 10,
+    "counters": {
+      "spell.deadLuck": true
+    },
+    "defaultGainChance": 2,
+    "gainChance": {
+      "necropolis": 5
+    },
+    "flags": {
+      "indifferent": true,
+      "positive": true
+    },
+    "graphics": {
+      "iconBook": "deadLuck/spellBook",
+    	"iconScroll": "deadLuck/spellScroll",
+    	"iconScenarioBonus": "deadLuck/spellBonus",
+    	"iconEffect": "deadLuck/spellEffect"
+    },
+    "sounds": {
+      "cast": "sorDeadLuck"
+    },
+    "targetType": "NO_TARGET",
+    "levels": {
+      "none": {
+        "description": "{Dead Luck}\r\n\r\nReduces maximum Luck in combat to +2 until the end of the day.",
+        "cost": 10,
+        "power": 10,
+        "range": "X",
+        "targetModifier": {
+          "smart": false
+        },
+        "adventureEffect": {
+          "type": "generic",
+          "castsPerDay": 1,
+          "bonuses": {
+            "ability1A": {
+              "type": "LUCK",
+              "val": 2,
+              "valueType": "INDEPENDENT_MIN",
+              "duration": "ONE_DAY",
+              "propagator": "BATTLE_WIDE"
+            }
+          }
+        }
+      },
+      "basic": {
+        "description": "{Basic Dead Luck}\r\n\r\nReduces maximum Luck in combat to +2 until the end of the day.",
+        "cost": 8,
+        "power": 10,
+        "range": "X",
+        "targetModifier": {
+          "smart": false
+        },
+        "adventureEffect": {
+          "type": "generic",
+          "castsPerDay": 1,
+          "bonuses": {
+            "ability1A": {
+              "type": "LUCK",
+              "val": 2,
+              "valueType": "INDEPENDENT_MIN",
+              "duration": "ONE_DAY",
+              "propagator": "BATTLE_WIDE"
+            }
+          }
+        }
+      },
+      "advanced": {
+        "description": "{Advanced Dead Luck}\r\n\r\nReduces maximum Luck in combat to +1 until the end of the day.",
+        "cost": 8,
+        "power": 10,
+        "range": "X",
+        "targetModifier": {
+          "smart": false
+        },
+        "adventureEffect": {
+          "type": "generic",
+          "castsPerDay": 1,
+          "bonuses": {
+            "ability1A": {
+              "type": "LUCK",
+              "val": 1,
+              "valueType": "INDEPENDENT_MIN",
+              "duration": "ONE_DAY",
+              "propagator": "BATTLE_WIDE"
+            }
+          }
+        }
+      },
+      "expert": {
+        "description": "{Expert Dead Luck}\r\n\r\nNegates positive Luck in combat until the end of the day.",
+        "cost": 8,
+        "power": 10,
+        "range": "X",
+        "targetModifier": {
+          "smart": false
+        },
+        "adventureEffect": {
+          "type": "generic",
+          "castsPerDay": 1,
+          "bonuses": {
+            "ability1A": {
+              "type": "LUCK",
+              "val": 0,
+              "valueType": "INDEPENDENT_MIN",
+              "duration": "ONE_DAY",
+              "propagator": "BATTLE_WIDE"
+            }
+          }
+        }
+      }
+    }
+  }
+}

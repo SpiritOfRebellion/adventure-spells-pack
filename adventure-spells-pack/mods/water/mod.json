@@ -1,0 +1,21 @@
+{
+	"name" : "Water Magic Spells",
+	"description" : "Adds 4 new adventure spells for Water magic<br/><br/>Benediction<br/>Channel Power<br/>Seafaring<br/>Whirlpool Protection",
+	"author" : "Heroes III Modding Community, Aphra, SpiritOfRebellion",
+	"contact" : "https://discord.gg/femaQDmS",
+	"version" : "1.5",
+	"modType" : "Spells",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"compatibility" : {
+		"min" : "1.7.0"
+	},
+	"chinese" : {
+		"name" : "水系魔法",
+		"description" : "添加4个新冒险水系法术<br/><br/>圣灵赐福<br/>魔能导引<br/>稳泛沧浪<br/>涡旋防护"
+	},
+	"czech" : {
+		"name" : "Kouzla magie vody",
+		"description" : "Tato modifikace přidává 4 kouzla pro magii vody<br/><br/>Požehnání magie<br/>Proud síly<br/>Mořeplavec<br/>Ochrana proti vírům"
+	}
+}
