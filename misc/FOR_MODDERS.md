@@ -31,8 +31,7 @@ Were helpful for AI prompts and documentation.
 
 ### Spells added
 ```
-json_data='{
-    "air": ["accuracy", "clarity", "darkness", "divineSpirit", "fleetFoot", "powerOfHaste"],
+json_data='{"accuracy", "clarity", "darkness", "divineSpirit", "fleetFoot", "powerOfHaste"],
     "earth": ["deadLuck", "deathCall", "dwarvenLuck", "heraldOfDeath", "holdGround", "powerOfStone"],
     "fire": ["demonicPower", "raiseDemons", "shatteringStrike"],
     "water": ["benediction", "channelPower", "seafaring", "whirlpoolProtection"],
