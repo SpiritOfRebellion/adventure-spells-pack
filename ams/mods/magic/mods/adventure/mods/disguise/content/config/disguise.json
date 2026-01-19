@@ -1,0 +1,45 @@
+{
+	"core:disguise" : {
+		"levels" : {
+			"base":{
+				"range" : "0",
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay" : 1,
+					"bonuses" : {
+						"stealth" : {
+							"type" : "DISGUISED",
+							"val" : 1,
+							"valueType" : "INDEPENDENT_MAX",
+							"duration" : "ONE_WEEK",
+						},
+						"manaDecay": {
+							"type": "COMBAT_MANA_BONUS",
+							"val": -10,
+							"valueType": "BASE_NUMBER",
+							"duration": "ONE_WEEK"
+						}
+					}
+				}
+			},
+			"advanced":{
+				"adventureEffect" : {
+					"bonuses" : {
+						"stealth" : {
+							"val" : 2
+						}
+					}
+				}
+			},
+			"expert":{
+				"adventureEffect" : {
+					"bonuses" : {
+						"stealth" : {
+							"val" : 3
+						}
+					}
+				}
+			}
+		}
+	}
+}

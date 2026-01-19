@@ -1,0 +1,84 @@
+{
+	"ams.magic.adventure.benediction:benediction": {
+		"level": 2,
+		"power": 0,
+		"targetCondition#override": {},
+		"flags#override": {
+			"indifferent": true
+		},
+		"defaultGainChance": 0,
+		"gainChance": {
+			"castle" : 3,
+			"conflux" : 2,
+			"fortress" : 2,
+			"rampart" : 2,
+			"stronghold" : 2
+		},
+		"levels#override": {
+			"base": {
+				"cost" : 20,
+				"power" : 0,
+				"range" : "0",
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay": 1,
+					"bonuses" : {
+						"proficiency" : {
+							"type": "MAGIC_SCHOOL_SKILL",
+							"subtype": "spellSchool.any",
+							"val": 1,
+							"valueType": "INDEPENDENT_MIN",
+							"duration": "ONE_WEEK"
+						},
+						"skillCost": {
+							"type": "PRIMARY_SKILL",
+							"subtype" : "primarySkill.spellpower",
+							"val": -10,
+							"valueType": "BASE_NUMBER",
+							"duration": "ONE_WEEK"
+						}
+					}
+				}
+			},
+			"none": {
+				"description": "{Base Benediction}\r\n\r\nA hero is able to cast all spells with Basic proficiency.\r\n\r\nDrains 10 'Power' daily and lasts until next week."
+			},
+			"basic": {
+				"description": "{Basic Benediction}\r\n\r\nA hero is able to cast all spells with Basic proficiency.\r\n\r\nDrains 2 'Power' daily and lasts until next week.",
+				"adventureEffect": {
+					"bonuses": {
+						"skillCost": {
+							"val": -2
+						}
+					}
+				}
+			},
+			"advanced": {
+				"description": "{Advanced Benediction}\r\n\r\nA hero is able to cast all spells with Advanced proficiency.\r\n\r\nDrains 5 'Power' daily and lasts until next week.",
+				"adventureEffect": {
+					"bonuses": {
+						"proficiency" : {
+							"val": 2
+						},
+						"skillCost": {
+							"val": -5
+						}
+					}
+				}
+			},
+			"expert": {
+				"description": "{Expert Benediction}\r\n\r\nA hero is able to cast all spells with Advanced proficiency.\r\n\r\nDrains 8 'Power' daily and lasts until next week.",
+				"adventureEffect": {
+					"bonuses": {
+						"proficiency" : {
+							"val": 3
+						},
+						"skillCost": {
+							"val": -8
+						}
+					}
+				}
+			}
+		}
+	}
+}

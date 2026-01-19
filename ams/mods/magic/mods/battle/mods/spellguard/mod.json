@@ -1,0 +1,16 @@
+{
+  "name": "Spellguard",
+  "description": "Spellguard",
+  "author": "SpiritOfRebellion",
+  "licenseName": "Creative Commons Attribution-ShareAlike",
+  "licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/deed",
+  "contact": "https://discord.gg/chBT42V",
+  "version": "1.6",
+  "modType": "Spells",
+  "language": "english",
+  "compatibility": {
+    "min": "1.7.0"
+  },
+  "keepDisabled": false,
+  "spells" : [ "config/spellguard" ]
+}

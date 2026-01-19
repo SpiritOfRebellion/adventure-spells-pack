@@ -1,0 +1,125 @@
+{
+	"spellguard": {
+		"name": "Spellguard",
+		"type": "combat",
+		"targetType": "CREATURE",
+		"school": {
+			"air": true,
+			"earth": true,
+			"fire": true,
+			"water": true
+		},
+		"level": 3,
+		"power": 1,
+		"defaultGainChance": 0,
+		"flags": {
+			"positive": true,
+			"special" : true
+		},
+		"levels": {
+			"base": {
+				"cost": 20,
+				"power": 1,
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"battleEffects": {
+					"effect1": {
+						"type": "core:timed",
+						"cumulative" : true,
+						"bonus": {
+							"resistMagic" : {
+								"type": "SPELL_DAMAGE_REDUCTION",
+								"subtype": "spellSchool.any",
+								"val": 5
+							}
+						}
+					},
+					"effect2": {
+						"type": "core:timed",
+						"cumulative" : true,
+						"bonus" : {
+							"reflect" : {
+								"type": "MAGIC_MIRROR",
+								"val": 0
+							}
+						}
+					}
+				}
+			},
+			"none": {
+				"description": "{Spellguard}\r\n\r\nIncreases spell damage reduction by 5%.\r\n\r\nThe effect is cumulative."
+			},
+			"basic": {
+				"description": "{Spellguard}\r\n\r\nIncreases spell damage reduction by 10%.\r\n\r\nThe effect is cumulative.",
+				"cost": 15,
+				"battleEffects": {
+					"effect1": {
+						"bonus": {
+							"resistMagic" : {
+								"val": 10
+							}
+						}
+					}
+				}
+			},
+			"advanced": {
+				"description": "{Spellguard}\r\n\r\nIncreases spell damage reduction by 15% and has a 5% chance to reflect an opponent's spell.\r\n\r\nThe effects are cumulative.",
+				"cost": 10,
+				"battleEffects": {
+					"effect1": {
+						"bonus": {
+							"resistMagic" : {
+								"val": 15
+							}
+						}
+					},
+					"effect2": {
+						"bonus" : {
+							"reflect" : {
+								"val": 5
+							}
+						}
+					}
+				}
+			},
+			"expert": {
+				"description": "{Spellguard}\r\n\r\nIncreases spell damage reduction by 20% and has a 5% chance to reflect an opponent's spell.\r\n\r\nThe effects are cumulative.",
+				"cost": 10,
+				"range": "X",
+				"battleEffects": {
+					"effect1": {
+						"bonus": {
+							"resistMagic" : {
+								"val": 20
+							}
+						}
+					},
+					"effect2": {
+						"bonus" : {
+							"reflect" : {
+								"val": 5
+							}
+						}
+					}
+				}
+			}
+		},
+		"animation": {
+			"affect": [
+				"C02SPA0"
+			]
+		},
+		"graphics": {
+			// TODO "iconImmune": "",
+			"iconScenarioBonus": "spellguard/spellScenario",
+			"iconEffect": "spellguard/spellEffect",
+			"iconBook": "spellguard/spellBook",
+			"iconScroll": "spellguard/spellScroll"
+		},
+		"sounds": {
+			"cast": "SHIELD"
+		}
+	}
+}

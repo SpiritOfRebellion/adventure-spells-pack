@@ -1,0 +1,89 @@
+{
+	"accuracy": {
+		"type": "adventure",
+		"name": "Accuracy",
+		"school": {
+			"air": true,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 2,
+		"power": 0,
+		"counters": {
+			"spell.accuracy": true
+		},
+		"defaultGainChance": 3,
+		"gainChance": {
+			"castle": 4
+		},
+		"flags": {
+			"indifferent": true,
+			"positive": true
+		},
+		"targetCondition": {
+			"allOf": {
+				"bonus.SHOOTER": "absolute"
+			}
+		},
+		"graphics": {
+			"iconBook": "accuracy/spellBook",
+			"iconScroll": "accuracy/spellScroll",
+			"iconScenarioBonus": "accuracy/spellBonus",
+			"iconEffect": "accuracy/spellEffect"
+		},
+		"sounds": {
+			"cast": "sorAccuracy"
+		},
+		"targetType": "NO_TARGET",
+		"levels": {
+			"base": {
+				"cost": 18,
+				"power": 10,
+				"range": "X",
+				"targetModifier": {
+					"smart": false
+				},
+				"adventureEffect": {
+					"type": "generic",
+					"castsPerDay": 1,
+					"bonuses": {
+						"attacks": {
+							"type": "PERCENTAGE_DAMAGE_BOOST",
+							"subtype": "damageTypeRanged",
+							"val": 5,
+							"valueType": "PERCENT_TO_BASE",
+							"duration": "ONE_DAY"
+						}
+					}
+				}
+			},
+			"none" : {
+				"description": "{Accuracy}\r\n\r\nAll creatures receive +5% damage when attacking at range until the end of the day.",
+			},
+			"basic": {
+				"description": "{Basic Accuracy}\r\n\r\nAll creatures receive +5% damage when attacking at range until the end of the day.",
+				"cost": 12,
+			},
+			"advanced": {
+				"description": "{Advanced Accuracy}\r\n\r\nAll creatures receive +10% damage when attacking at range until the end of the day.",
+				"cost": 12,
+				"adventureEffect": {
+					"bonuses": {
+						"attacks": { "val": 10 }
+					}
+				}
+			},
+			"expert": {
+				"description": "{Expert Accuracy}\r\n\r\nAll creatures receive +15% damage when attacking at range until the end of the day.",
+				"cost": 12,
+				"power": 10,
+				"adventureEffect": {
+					"bonuses": {
+						"attacks": { "val": 15 }
+					}
+				}
+			}
+		}
+	}
+}

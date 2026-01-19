@@ -1,0 +1,89 @@
+{
+	"ams.magic.adventure.arcaneprotection:arcaneProtection": {
+		"level": 3,
+		"power": 0,
+		"flags#override": {
+			"indifferent": true
+		},
+		"defaultGainChance": 0,
+		"gainChance": {
+			"conflux" : 1,
+			"dungeon" : 1,
+			"fortress" : 2,
+			"rampart" : 3,
+			"stronghold" : 1,
+			"tower" : 3
+		},
+		"levels#override": {
+			"base": {
+				"cost" : 20,
+				"power" : 1,
+				"range" : "0",
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay": 1,
+					"bonuses" : {
+						"bonus1" : {
+							"type" : "OPENING_BATTLE_SPELL",
+							"subtype" : "spell.spellguard",
+							"val" : 2,
+							"addInfo" : 0,
+							"duration" : "ONE_WEEK"
+						},
+						"manaDecay": {
+							"type": "COMBAT_MANA_BONUS",
+							"val": -20,
+							"valueType": "BASE_NUMBER",
+							"duration": "ONE_WEEK"
+						}
+					}
+				}
+			},
+			"none": {
+				"description": "{Arcane Protection}\r\n\r\nA hero casts mass Spellguard (base) spell at the begining of each battle.\r\n\r\nDrains 20 mana per battle cast and lasts for 7 days."
+			},
+			"basic": {
+				"description": "{Arcane Protection}\r\n\r\nA hero casts mass Spellguard (basic) spell at the begining of each battle.\r\n\r\nCosts 10 mana per battle cast and lasts for 7 days.",
+				"adventureEffect": {
+					"bonuses": {
+						"bonus1": {
+							"val": 3,
+							"addInfo": 1
+						},
+						"manaDecay": {
+							"val": -10
+						}
+					}
+				}
+			},
+			"advanced": {
+				"description": "{Arcane Protection}\r\n\r\nA hero casts mass Spellguard (advanced) spell at the begining of each battle.\r\n\r\nCosts 10 mana per battle cast and lasts for 7 days.",
+				"adventureEffect": {
+					"bonuses": {
+						"bonus1": {
+							"val": 6,
+							"addInfo": 2
+						},
+						"manaDecay": {
+							"val": -10
+						}
+					}
+				}
+			},
+			"expert": {
+				"description": "{}\r\n\r\nA hero casts mass Spellguard (expert) spell at the begining of each battle.\r\n\r\nCosts 10 mana per battle cast and lasts for 7 days.",
+				"adventureEffect": {
+					"bonuses": {
+						"bonus1": {
+							"val": 99,
+							"addInfo": 3
+						},
+						"manaDecay": {
+							"val": -10
+						}
+					}
+				}
+			}
+		}
+	}
+}
