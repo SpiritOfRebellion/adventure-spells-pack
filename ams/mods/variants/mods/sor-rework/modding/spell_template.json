@@ -2,7 +2,7 @@
 	"ams.magic.adventure.:": {
 		"level": ,
 		"targetCondition": {},
-		"flags": {
+		"flags#override": {
 			"indifferent": true
 		},
 		"defaultGainChance": 0,
@@ -39,7 +39,7 @@
 							"val": -20,
 							"valueType": "BASE_NUMBER",
 							"duration": "ONE_WEEK"
-						}
+						},
 						"skillCost": {
 							"type": "PRIMARY_SKILL",
 							"subtype" : "primarySkill.spellpower",

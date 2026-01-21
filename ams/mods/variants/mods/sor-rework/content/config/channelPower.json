@@ -1,0 +1,121 @@
+{
+	"ams.magic.adventure.channelpower:channelPower": {
+		"power": 1,
+		"flags#override": {
+			"indifferent": true
+		},
+		"defaultGainChance": 0,
+		"gainChance": {
+			"conflux" : 1,
+			"dungeon" : 3,
+			"inferno" : 2,
+			"tower" : 3,
+			"necropolis" : 2,
+			"rampart" : 1
+		},
+		"levels#override": {
+			"base": {
+				"cost" : 50,
+				"power" : 1,
+				"range" : "0",
+				"adventureEffect" : {
+					"type" : "generic",
+					"castsPerDay": 1,
+					"bonuses" : {
+						"skillBoost": {
+							"type": "PRIMARY_SKILL",
+							"subtype" : "primarySkill.spellpower",
+							"val": 5,
+							"valueType": "BASE_NUMBER",
+							"duration": "ONE_WEEK"
+						},
+						"skillCost1": {
+							"type": "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val": -5,
+							"valueType": "BASE_NUMBER",
+							"duration": "ONE_WEEK"
+						},
+						"skillCost2": {
+							"type": "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val": -5,
+							"valueType": "BASE_NUMBER",
+							"duration": "ONE_WEEK"
+						},
+						"skillCost3": {
+							"type": "PRIMARY_SKILL",
+							"subtype" : "primarySkill.knowledge",
+							"val": -5,
+							"valueType": "BASE_NUMBER",
+							"duration": "ONE_WEEK"
+						}
+					}
+				}
+			},
+			"none": {
+				"description": "{Base Channel Power}\r\n\r\nA hero gains +5 Power, yet the spell drains -5 from the other primary skills.\r\n\r\nThe effect lasts until next week.",
+			},
+			"basic": {
+				"description": "{Basic Channel Power}\r\n\r\nA hero gains +5 Power, yet the spell drains -3 from the other primary skills.\r\n\r\nThe effect lasts until next week.",
+				"cost" : 50,
+				"adventureEffect": {
+					"bonuses": {
+						"skillBoost": {
+							"val": 5
+						},
+						"skillCost1": {
+							"val": -3
+						},
+						"skillCost2": {
+							"val": -3
+						},
+						"skillCost3": {
+							"val": -3
+						}
+					}
+				}
+			},
+			"advanced": {
+				"description": "{Advanced Channel Power}\r\n\r\nA hero gains +7 Power, yet the spell drains -4 from the other primary skills.\r\n\r\nThe effect lasts until next week.",
+				"cost" : 50,
+				"adventureEffect": {
+					"bonuses": {
+						"skillBoost": {
+							"val": 7
+						},
+						"skillCost1": {
+							"val": -4
+						},
+						"skillCost2": {
+							"val": -4
+						},
+						"skillCost3": {
+							"val": -4
+						}
+					}
+				}
+			},
+			"expert": {
+				"description": "{Expert Channel Power}\r\n\r\nA hero gains +10 Power, yet the spell drains -5 from the other primary skills.\r\n\r\nThe effect lasts until next week.",
+				"cost": 50,
+				"adventureEffect": {
+					"bonuses": {
+						"skillBoost": {
+							"val": 10
+						},
+						"skillCost1": {
+							"val": -5
+						},
+						"skillCost2": {
+							"val": -5
+						},
+						"skillCost3": {
+							"val": -5
+						}
+					}
+				}
+			}
+		}
+	}
+}

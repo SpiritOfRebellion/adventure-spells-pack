@@ -1,0 +1,15 @@
+{
+	"name": "Mod variants",
+	"description": "<p>Adventure Map Spells reworks. You can try different approaches here. Keep the contents disabled if you prefer the original mechanics known up to version 1.5.</p>",
+	"author": "SpiritOfRebellion",
+	"licenseName": "Creative Commons Attribution-ShareAlike",
+	"licenseURL": "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"contact": "https://discord.gg/chBT42V",
+	"version": "2.0",
+	"modType": "Spells",
+	"language": "english",
+	"compatibility": {
+		"min": "1.7.1"
+	},
+	"keepDisabled": false
+}

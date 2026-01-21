@@ -1,0 +1,31 @@
+{
+	"name" : "SoR rework",
+	"description" : "<p>The mod changes durations, behavior, availability and costs of the spells.</p><h3>Adventure Spells</h3><p>The mod changes durations, behavior, availability, and costs of the spells. The changes listed below indicate spells that are mostly done.</p><h3><b>Air</b></h3><ul><li><b>Accuracy</b>: Casts mass 'Precision' spell at the beginning of a battle. Drains mana per battle -20/-10/-10/-10. Lasts until next week.</li><li><b>Clarity</b>: Casts mass 'Mindshield' spell at the beginning of a battle. Drains mana per battle -20/-20/-10/-10. Lasts until next week.</li></ul><h3>Global</h3><ul><li><b>Arcane Protection</b>: Casts mass 'Spellguard' spell at the beginning of a battle. Drains mana per battle -20/-10/-10/-10. Lasts until next week.</li></ul><h3><b>Water</b></h3><ul><li><b>Benediction</b>: A Hero can cast all spells at Basic/Basic/Advanced/Expert proficiency at a price of 'Power' -10/-2/-5/-8. Lasts until next week.</li><li><b>Channel Power</b>: A hero gains a solid boost to 'Power' 5/5/7/10, yet the spell drains from all other primary skills -5/-3/-4/-5. The effect lasts until next week.</li></ul><h3>Battle Spells</h3><p>As a consequence of the rework, some new spells were designed to simulate Adventure Spells effects as battle spells. As default, they are set to be not available in the mages' guild, but it can be changed with the 'Make it available' mod in the same directory.</p><ul><li><b>Spellguard</b>: Used in <b>Arcane Protection</b>, adds 5/10/15/20 spell immunity, known from Golems, and 0/0/5/5 magic mirror. The effect is cumulative.</li><li><b>Mindshield</b>: Used in <b>Clarity</b>, gives Mind Immunity, dispels Mind spells, and sets min morale to -/-/0/0.</li></ul><h3>Other</h3><p>Considered <b>Cancellation spell</b>, but ultimately no-cancellation showed up as an interesting consequence.</p>",
+	"author" : "SpiritOfRebellion",
+	"contact" : "https://discord.gg/chBT42V",
+	"version" : "2.0",
+	"modType" : "Spells",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"compatibility" : {
+		"min" : "1.7.1"
+	},
+	"depends" :
+	[
+		"ams.magic.adventure.accuracy",
+		"ams.magic.adventure.arcaneProtection",
+		"ams.magic.battle.spellguard",
+		"ams.magic.adventure.benediction",
+		"ams.magic.adventure.channelPower",
+		"ams.magic.adventure.clarity",
+		"ams.magic.battle.mindshield"
+	],
+	"keepDisabled": false,
+	"spells": [
+		"config/accuracy",
+		"config/arcaneProtection",
+		"config/benediction",
+		"config/channelPower",
+		"config/clarity"
+	]
+}

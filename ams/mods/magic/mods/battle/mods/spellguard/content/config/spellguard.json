@@ -13,8 +13,8 @@
 		"power": 1,
 		"defaultGainChance": 0,
 		"flags": {
-			"positive": true,
-			"special" : true
+			"positive": true
+			//"special" : true add comma
 		},
 		"levels": {
 			"base": {
@@ -32,7 +32,9 @@
 							"resistMagic" : {
 								"type": "SPELL_DAMAGE_REDUCTION",
 								"subtype": "spellSchool.any",
-								"val": 5
+								"val": 5,
+								"duration": "N_TURNS",
+								"turns": 1
 							}
 						}
 					},
@@ -42,17 +44,19 @@
 						"bonus" : {
 							"reflect" : {
 								"type": "MAGIC_MIRROR",
-								"val": 0
+								"val": 0,
+								"duration": "N_TURNS",
+								"turns": 0
 							}
 						}
 					}
 				}
 			},
 			"none": {
-				"description": "{Spellguard}\r\n\r\nIncreases spell damage reduction by 5%.\r\n\r\nThe effect is cumulative."
+				"description": "{Base Spellguard}\r\n\r\nIncreases spell damage reduction by 5%.\r\n\r\nThe effect is cumulative."
 			},
 			"basic": {
-				"description": "{Spellguard}\r\n\r\nIncreases spell damage reduction by 10%.\r\n\r\nThe effect is cumulative.",
+				"description": "{Basic Spellguard}\r\n\r\nIncreases spell damage reduction by 10%.\r\n\r\nThe effect is cumulative.",
 				"cost": 15,
 				"battleEffects": {
 					"effect1": {
@@ -65,7 +69,7 @@
 				}
 			},
 			"advanced": {
-				"description": "{Spellguard}\r\n\r\nIncreases spell damage reduction by 15% and has a 5% chance to reflect an opponent's spell.\r\n\r\nThe effects are cumulative.",
+				"description": "{Advanced Spellguard}\r\n\r\nIncreases spell damage reduction by 15% and has a 5% chance to reflect an opponent's spell.\r\n\r\nThe effects are cumulative.",
 				"cost": 10,
 				"battleEffects": {
 					"effect1": {
@@ -85,7 +89,7 @@
 				}
 			},
 			"expert": {
-				"description": "{Spellguard}\r\n\r\nIncreases spell damage reduction by 20% and has a 5% chance to reflect an opponent's spell.\r\n\r\nThe effects are cumulative.",
+				"description": "{Expert Spellguard}\r\n\r\nIncreases spell damage reduction by 20% and has a 5% chance to reflect an opponent's spell.\r\n\r\nThe effects are cumulative.",
 				"cost": 10,
 				"range": "X",
 				"battleEffects": {
@@ -112,7 +116,6 @@
 			]
 		},
 		"graphics": {
-			// TODO "iconImmune": "",
 			"iconScenarioBonus": "spellguard/spellScenario",
 			"iconEffect": "spellguard/spellEffect",
 			"iconBook": "spellguard/spellBook",

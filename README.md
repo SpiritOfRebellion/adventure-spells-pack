@@ -1,9 +1,11 @@
 # Table of Contents
 
 - [Adventure Map Spells Overview](#adventure-map-spells-overview)
+- [SoR Rework](#sor-rework)
 - [Known Issues](#known-issues)
 - [TODOs](#todos)
 - [Changelog](#changelog)
+- [Credits](#credits)
 
 ---
 
@@ -47,36 +49,53 @@
 
 ---
 
-# SoR Overhaul Mod Overview (quick)
+# SoR Rework
+
+## Adventure Spells
+
+The mod changes durations, behavior, availability and costs of the spells. The changes listed below indicate spells that are mostly done.
 
 ### **Air**
-- **Accuracy**: casts mass 'Precision' spell at the begenning of a battle. Drains mana. Lasts until next week.
+- **Accuracy**: casts mass 'Precision' spell at the begenning of a battle. Drains mana per battle -20/-10/-10/-10. Lasts until next week.
+- **Clarity**: casts mass 'Mindshield' spell at the beginning of a battle. Drains mana per battle -20/-20/-10/-10. Lasts until next week.
 
 ### Global
-- **Arcane Protection**: casts mass 'Spellguard' spell at the beginning of a battle (it adds 5/10/15/20 spell immunity, known from Golems). Drains mana. Lasts until next week.
+- **Arcane Protection**: casts mass 'Spellguard' spell at the beginning of a battle. Drains mana per battle -20/-10/-10/-10. Lasts until next week.
 
 ### **Water**
-- **Benediction**: A Hero can cast all spells at Basic/Basic/Advanced/Expert proficiency. Drains mana and 'Power'. Lasts until next week.
+- **Benediction**: A Hero can cast all spells at Basic/Basic/Advanced/Expert proficiency at a price of 'Power' -10/-2/-5/-8. Lasts until next week.
+- **Channel Power**: A hero gains a solid boost to 'Power' 5/5/7/10, yet the spell drains from the all other primary skills -5/-3/-4/-5. The effect lasts until next week.
 
+## Battle spells
+As a consequence of the rework, some new spells were designed to simulate Adventure Spells effects as battle spells. As default, they are set to be not available in mages' guild, but it can be changed with the 'Make it available' mod in the same directory. 
 
-# Known Issues
+- **Spellguard**: used in **Arcane Protection**, adds 5/10/15/20 spell immunity, known from Golems, and 0/0/5/5 magic mirror. The effect is cumulative.
 
-- Lacks proper indication in the unit window about true effects of a spell. This also applies to updates, if a spell has a cumulating effect. Currently only base stats are displayed.
-- Currently there is no way to indicate that spells' duration ended. Partially solved with the durations set to - until next week.
-- A player can cast a spell which drains resources even if there is nothing to drain. Partially solved with variety of costs.
-- The AI doesn't use the spells.
-- Casts per day bug: [#6659](https://github.com/vcmi/vcmi/issues/6659).
+- **Mindshield** used in **Clarity**, gives Mind Immunity, dispels Mind spells, and sets min morale to -/-/0/0.
+
+## Other
+
+- Considered **Cancelation spell**, but ultimately no-cancelation showed up as an interesting consequence.
 
 ---
 
-## TODO
+# Known Issues
 
-1. Bug Fixes (see client log)
-- [ ] `WARN [initialize] mod - Spell: target type empty - assumed NO_TARGET.`
-- [ ] `ERROR [initialize] mod - Spell: no positiveness specified, assumed NEUTRAL.`
-- [ ] redundancy in target types
-2. Support for more towns (if neccessary).
-3. Add restrictions to the spells - eg. 'Call the Legion' restricted to a Knight, 'Benediction' prohibited to a Death Knight and so on (will it crash the game?). Also check out are there should be restrictions to creatures.
+- Lack of proper indication in the unit window about true effects of a spell. This also applies if a spell has a cumulating effect. Currently only 'base' stats are displayed.
+- There is no way to indicate that adventure spells' duration ended. Partially solved with the durations set to: until next week.
+- A player can cast a spell which drains resources even if there is nothing to drain. Partially solved with variety of costs.
+- The AI doesn't use the spells.
+- Spells casted at the begining of a battle are always mass effect despite their level.
+- Some spells ignores hero's power when it comes to duration. Partially solved by adjusting fixed durations.
+- Casts per day bug: [#6659](https://github.com/vcmi/vcmi/issues/6659) (solved in upcomming 1.7.2 update). 
+
+---
+
+## TODOs
+
+1. Compatibility files for other mods.
+2. Restrictions to the spells - eg. 'Call the Legion' restricted to a Heretics, 'Benediction' prohibited to a Death Knight and so on. Also there should be restrictions to the creatures.
+3. Original sounds for new battle spells and animations.
 
 # Changelog
 
@@ -84,36 +103,38 @@
 
 ### Adventure Spells
 
-- [ ] Duration of the spells changed to ONE_WEEK in most cases, but it doesn't mean 7 days everytime. Entering a new week should be a signal to renew the spells,
+- [ ] Duration of the spells changed to ONE_WEEK in most cases, but it doesn't mean 7 days everytime, depends when it's casted. Entering a new week should be a signal to renew the spells.
 - [ ] Changed behavior and effects of the spells, with preserving their original characer. Most of them can now be dispelled in a battle.
-- [ ] Variety of spell costs implemented: mana costs, movement costs, primary skills costs, resources costs. Read the description, before casting.
+- [ ] Variety of spell costs implemented: mana costs, movement costs, primary skills costs, resources costs... Read the description, before casting.
 - [ ] Disguise spell duration also elongated,
 - [ ] The spells are rare to find (max. gain chance = 3; default 0),
 - [ ] New battle spells added to simulate some effects. Unavailable as default, but can be enabled.
-- [ ] Whatever possible is kept optional.
+- [ ] Things kept optional.
 - [ ] Preserved original mechanic of the spells (for dependencies, different variants and further development).
 
 ### Mod structure
 
-- [x] Simplified directory three, any unnecessary directories deleted. Schools indications moved to description.
-- [ ] Redundancy reduced in the code by using "base" object, which was not present.
-- [ ] Changed main catalog name name from 'adventure-spell-pack' to 'ams' (from Adventure Map Spells) for shorter object chains.
+- [x] Simplified directory three, any unnecessary directories deleted. Schools indications moved to Readme-s.
+- [ ] Duplication reduced in the code by using "base" object, which was not present.
+- [x] Changed main catalog name from 'adventure-spell-pack' to 'ams' (from Adventure Map Spells) for shorter object chains.
 - [ ] Changed 'Raise Demons' name to 'Call the Legion', due to potential conflicts.
 
 ### Other
 
-- [ ] some sound effects louder, some replaced, plus fixed metas,
-- [ ] update mod.json descriptions
-- [ ] documentation on GitHub and in the Launcher.
+- [ ] Some sound effects louder, some replaced, plus fixed metas,
+- [ ] Updated mod.json descriptions
+- [ ] Updated documentation on GitHub and in the Launcher.
+- [ ] Erased comments
+- [ ] Additional battle spells have 'special' parameter if necessary
+- [ ] Add credits for resouces used in the mod.
 
 ### Translations
 
 - [ ] Fixed paths.
-- [x] Some translations lost due structural changes.
+- [x] Some minor translations lost due structural changes.
 - [ ] Chineese, complete, autogenerated.
 - [ ] Spanish, complete, autogenerated.
 - [ ] Polish, complete.
-- 
 
 ---
 
@@ -144,3 +165,5 @@
 - [x] Translations
 
 ---
+
+# Credits

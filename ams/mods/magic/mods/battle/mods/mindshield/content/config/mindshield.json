@@ -1,0 +1,125 @@
+{
+	"mindshield": {
+		"name": "Mindshield",
+		"type": "combat",
+		"targetType": "CREATURE",
+		"school": {
+			"air": true,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 3,
+		"power": 1,
+		"defaultGainChance": 0,
+		"flags": {
+			"positive": true
+			//"special" : true add comma
+		},
+		"counters" : {
+			"spell.blind" : true,
+			"spell.berserk" : true,
+			"spell.frenzy" : true,
+			"spell.forgetfulness" : true,
+			"spell.hypnotize" : true,
+			"spell.mirth" : true,
+			"spell.sorrow" : true
+		},
+		"levels": {
+			"base": {
+				"cost": 30,
+				"power": 1,
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"battleEffects": {
+					"effect1": {
+						"type": "core:timed",
+						"bonus": {
+							"shield" : {
+								"type": "MIND_IMMUNITY",
+								"duration": "N_TURNS",
+								"turns": 1
+							},
+							"morale" : {
+								"type": "MORALE",
+								"val" : null,
+								"valueType": "INDEPENDENT_MAX",
+								"duration": "N_TURNS",
+								"turns": 0
+							}
+						}
+					}
+				}
+			},
+			"none": {
+				"description": "{Base Mindshield}\r\n\r\nThe spell grants a group immunity to mind-affecting spells."
+			},
+			"basic": {
+				"description": "{Basic Mindshield}\r\n\r\nThe spell grants a group immunity to mind-affecting spells",
+				"cost": 20,
+				"battleEffects": {
+					"effect1": {
+						"bonus": {
+							"shield" : {
+								"turns" : 2
+							}
+						}
+					}
+				}
+			},
+			"advanced": {
+				"description": "{Advanced Mindshield}\r\n\r\nThe spell grants a group immunity to mind-affecting spells",
+				// "power": 3,
+				"cost": 15,
+				"battleEffects": {
+					"effect1": {
+						"bonus": {
+							"shield" : {
+								"turns" : 4
+							},
+							"morale" : {
+								"val" : 0,
+								"turns" : 4
+							}
+						}
+					}
+				}
+			},
+			"expert": {
+				"description": "{Expert Mindshield}\r\n\r\nThe spell grants hero's army immunity to mind-affecting spells.",
+				// "power": 3,
+				"cost": 10,
+				"range": "X",
+				"battleEffects": {
+					"effect1": {
+						"bonus": {
+							"shield" : {
+								"turns" : 8
+							},
+							"morale" : {
+								"val" : 0,
+								"turns" : 8
+							}
+						}
+					}
+				}
+			}
+		},
+		"animation": {
+			"affect": [
+				"C02SPE0"
+			]
+		},
+		"graphics": {
+			"iconScenarioBonus": "mindshield/spellScenario",
+			"iconEffect": "mindshield/spellEffect",
+			"iconBook": "mindshield/spellBook",
+			"iconScroll": "mindshield/spellScroll"
+		},
+		"sounds": {
+			"cast": "PROTECTA"
+		}
+	}
+}
